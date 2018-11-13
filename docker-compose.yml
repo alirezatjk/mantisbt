@@ -1,0 +1,32 @@
+version: '2'
+volumes: 
+  sheypoor-db:
+services:
+  mantis:
+    build:
+      context: ./
+    environment:
+      MANTIS_ENABLE_ADMIN: 1
+      MANTIS_CONFIG: |
+        $$g_hostname = 'db';
+        $$g_db_type = 'mysqli';
+        $$g_database_name = 'mantis';
+        $$g_db_username = 'root';
+        $$g_db_password = 'mantis';
+        $$g_crypto_master_salt='Gn7Rb7Qh+4mMW/Pl0qaLEzwXSTplhO/kaX05Y3NWVkNKdmuZ2quZR3U5nldum/lgtazsZI7IY3qpqLFZFEGRUA==';
+        $$g_log_level = LOG_EMAIL | LOG_EMAIL_RECIPIENT;
+        $$g_log_destination = '';
+        $$g_show_detailed_errors = ON;
+    ports:
+      - "80:80"
+    links:
+      - db:db
+    volumes:
+      - .:/var/www/html
+  db:
+    image: mysql:5.7
+    volumes:
+    - sheypoor-db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: mantis
+      MYSQL_DATABASE: mantis
