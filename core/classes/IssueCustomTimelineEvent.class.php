@@ -32,11 +32,11 @@ class IssueCustomTimelineEvent extends TimelineEvent {
     private $field_name;
     private $new_status;
 
-* @param string $p_field_name  Custom field name.
     /**
      * @param integer $p_timestamp  Timestamp representing the time the event occurred.
      * @param integer $p_user_id    An user identifier.
      * @param integer $p_issue_id   A issue identifier.
+     * @param string $p_field_name  Custom field name.
      * @param integer $p_new_status New status value of issue.
      */
 
