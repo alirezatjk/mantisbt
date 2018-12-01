@@ -1,7 +1,991 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6d8fdbf-5dae-468f-b5f4-fad6afaa9dc3" name="Default Changelist" comment="added status change to timeline" />
+    <list default="true" id="b6d8fdbf-5dae-468f-b5f4-fad6afaa9dc3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/mantisbt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_manage_columns_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_manage_columns_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_prefs_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_prefs_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_prefs_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_prefs_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_prefs_reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_prefs_reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_prefs_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_prefs_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_prof_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_prof_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_prof_menu_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_prof_menu_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_prof_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_prof_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_sponsor_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_sponsor_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_sponsor_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_sponsor_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/account_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adm_config_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/adm_config_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adm_config_report.php" beforeDir="false" afterPath="$PROJECT_DIR$/adm_config_report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adm_config_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/adm_config_set.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adm_permissions_report.php" beforeDir="false" afterPath="$PROJECT_DIR$/adm_permissions_report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_L10n_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_anonymous_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_attachments_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_config_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_crypto_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_database_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_display_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_email_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_i18n_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_integrity_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_paths_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_php_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/check_webservice_inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/check/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/db_stats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/email_queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/install.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/move_attachments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/move_attachments_page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/schema.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system_utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test_langs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/upgrade_unattended.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/ApiEnabledMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/ApiEnabledMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/AuthMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/AuthMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/CacheMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/CacheMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/OfflineMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/OfflineMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/VersionMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/VersionMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/config_rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/config_rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/filters_rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/filters_rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/internal_rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/internal_rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/issues_rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/issues_rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/lang_rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/lang_rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/projects_rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/projects_rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/restcore/users_rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/restcore/users_rest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/rest/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/rest/swagger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mantisconnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mantisconnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mantisconnect.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mantisconnect.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_account_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_account_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_config_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_config_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_core.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_custom_field_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_custom_field_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_enum_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_enum_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_file_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_file_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_filter_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_filter_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_issue_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_issue_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_issue_attachment_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_issue_attachment_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_project_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_project_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_project_attachment_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_project_attachment_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_tag_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_tag_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_user_pref_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_user_pref_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/mc_user_profile_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/mc_user_profile_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/soap/wsdl-viewer.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/api/soap/wsdl-viewer.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_token_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/api_token_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_token_revoke.php" beforeDir="false" afterPath="$PROJECT_DIR$/api_token_revoke.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_tokens_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/api_tokens_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing_export_to_csv.php" beforeDir="false" afterPath="$PROJECT_DIR$/billing_export_to_csv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing_export_to_excel.php" beforeDir="false" afterPath="$PROJECT_DIR$/billing_export_to_excel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/billing_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/billing_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser_search_plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/browser_search_plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup_add_note_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup_add_note_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup_attach_tags_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup_attach_tags_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup_ext.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup_ext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup_ext_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup_ext_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup_update_product_build_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup_update_product_build_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_actiongroup_update_severity_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_actiongroup_update_severity_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_change_status_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_change_status_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_file_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_file_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_monitor_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_monitor_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_monitor_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_monitor_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_monitor_list_view_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_monitor_list_view_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_relationship_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_relationship_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_relationship_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_relationship_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_relationship_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_relationship_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_relationship_graph_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_relationship_graph_img.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_reminder.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_reminder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_reminder_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_reminder_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_report.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_report_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_report_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_revision_drop.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_revision_drop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_revision_view_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_revision_view_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_set_sponsorship.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_set_sponsorship.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_sponsorship_list_view_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_sponsorship_list_view_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_stick.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_stick.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_update_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_update_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_view_advanced_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_view_advanced_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_view_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_view_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug_view_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bug_view_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_add_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_add_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_set_view_state.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_set_view_state.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_stats_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_stats_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugnote_view_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/bugnote_view_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/changelog_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/config/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/config/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_inc.php.sample" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_inc.php.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_defaults_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/config_defaults_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/core/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/core/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/access_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/access_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/antispam_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/antispam_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api_token_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/api_token_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/authentication_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/authentication_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/billing_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/billing_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bug_activity_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bug_activity_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bug_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bug_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bug_group_action_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bug_group_action_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bug_revision_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bug_revision_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bugnote_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bugnote_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/category_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/category_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cfdefs/cfdef_standard.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/cfdefs/cfdef_standard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/AuthFlags.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/AuthFlags.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/Avatar.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/Avatar.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/BugFilterQuery.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/BugFilterQuery.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/ConfigParser.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/ConfigParser.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/DbQuery.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/DbQuery.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/FilterConverter.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/FilterConverter.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/IssueAssignedTimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/IssueAssignedTimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/IssueAttachmentTimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/IssueAttachmentTimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/IssueCreatedTimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/IssueCreatedTimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/IssueMonitorTimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/IssueMonitorTimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/IssueNoteCreatedTimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/IssueNoteCreatedTimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/IssueStatusChangeTimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/IssueStatusChangeTimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/IssueTagTimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/IssueTagTimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisColumn.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisColumn.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisCorePlugin.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisCorePlugin.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisCoreWikiPlugin.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisCoreWikiPlugin.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisEnum.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisEnum.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisFilter.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisFilter.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisFormattingPlugin.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisFormattingPlugin.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisPlugin.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisPlugin.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/MantisWikiPlugin.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/MantisWikiPlugin.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/TimelineEvent.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/TimelineEvent.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/Tokenizer.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/classes/Tokenizer.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/classes/tabbat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/collapse_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/collapse_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/columns_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/columns_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueAddCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueAddCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueDeleteCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueDeleteCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueFileAddCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueFileAddCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueFileGetCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueFileGetCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueNoteAddCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueNoteAddCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueNoteDeleteCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueNoteDeleteCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueRelationshipAddCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueRelationshipAddCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/IssueRelationshipDeleteCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/IssueRelationshipDeleteCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/MonitorAddCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/MonitorAddCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/TagAttachCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/TagAttachCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/TagDetachCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/TagDetachCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/UserCreateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/UserCreateCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/UserDeleteCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/UserDeleteCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/commands/VersionAddCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/commands/VersionAddCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/compress_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/compress_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/config_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/constant_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/constant_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/crypto_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/crypto_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/csv_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/csv_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/current_user_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/current_user_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/custom_field_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/custom_field_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/custom_function_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/custom_function_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/database_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/database_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/date_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/date_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/email_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/email_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/email_queue_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/email_queue_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/error_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/error_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/event_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/event_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/events_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/events_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/excel_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/excel_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/exceptions/ClientException.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/ClientException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/exceptions/LegacyApiFaultException.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/LegacyApiFaultException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/exceptions/MantisException.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/MantisException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/exceptions/ServiceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/ServiceException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/exceptions/StateException.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/exceptions/StateException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/file_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/file_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/filter_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/filter_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/filter_constants_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/filter_constants_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/filter_form_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/filter_form_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/form_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/form_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/gpc_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/gpc_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/graphviz_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/graphviz_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/helper_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/helper_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/history_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/history_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/html_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/html_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/http_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/http_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/icon_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/icon_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/install_helper_functions_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/install_helper_functions_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/json_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/json_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/lang_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/lang_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/last_visited_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/last_visited_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/layout_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/layout_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ldap_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/ldap_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logging_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/logging_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/mention_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/mention_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/news_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/news_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/obsolete.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/obsolete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/php_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/php_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/plugin_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/plugin_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/prepare_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/prepare_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/print_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/print_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/profile_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/profile_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/project_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/project_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/project_hierarchy_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/project_hierarchy_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/relationship_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/relationship_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/relationship_graph_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/relationship_graph_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/rss_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/rss_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/session_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/session_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sponsorship_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/sponsorship_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/string_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/string_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/summary_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/summary_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tag_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/tag_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/timeline_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/timeline_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/timeline_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/timeline_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tokens_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/tokens_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/url_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/url_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/user_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/user_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/user_pref_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/user_pref_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utility_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/utility_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/version_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/version_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/wiki_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/wiki_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/workflow_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/workflow_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace-mantis.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace-mantis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace-part2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace-part2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace-skins.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace-skins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace-skins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace-skins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ace.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ace.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-3.3.6.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-3.3.6.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-3.3.6.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-datetimepicker-4.17.47.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-datetimepicker-4.17.47.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropzone-4.3.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropzone-4.3.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropzone-4.3.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropzone-4.3.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome-4.6.3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome-4.6.3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ajax-loader.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ajax-loader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/icons-18-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/icons-18-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/icons-18-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/icons-18-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/icons-36-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/icons-36-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/icons-36-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/icons-36-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/pattern.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/pattern.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_228ef1_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_2e83ff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_454545_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_888888_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_ef8c08_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_ffd27a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/ui-icons_ffffff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/status_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/css/status_config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_export.php" beforeDir="false" afterPath="$PROJECT_DIR$/csv_export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/doc/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/CREDITS" beforeDir="false" afterPath="$PROJECT_DIR$/doc/CREDITS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/doc/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/ace-theme-license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/ace-theme-license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/modern_my_view.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/modern_my_view.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/modern_view_issue.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/modern_view_issue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/modern_view_issues.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/modern_view_issues.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/About.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Admin_Guide.ent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Admin_Guide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Authentication.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Author_Group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Book_Info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Configuration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Contributing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Customizing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Installation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Page_Descriptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Preface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Project_Management.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Revision_History.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Troubleshooting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/User_Management.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/Workflow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/antispam.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/auth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/bughistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/bugnote.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/cookies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/customfields.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/database.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/date.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/defaults.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/display.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/duedate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/email.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/fields.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/filters.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/html.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/language.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/logging.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/myview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/news.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/path.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/relationship.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/reminders.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/signup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/speed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/sponsorship.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/status.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/subprojects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/summary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/time.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/timetracking.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/timezone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/uploads.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/version.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/webserver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/config/wiki.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/en-US/images/mantis_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Admin_Guide/publican.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Appendix.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Author_Group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Book_Info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Contributors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Database.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Developers_Guide.ent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Developers_Guide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events_Reference.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events_Reference_Account.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events_Reference_Bug.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events_Reference_Filter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events_Reference_Manage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events_Reference_Notify.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Events_Reference_Output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Integrating.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Plugins.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Plugins_Building.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Plugins_Building_Source.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Preface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/Revision_History.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/images/erd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/en-US/images/mantis_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Developers_Guide/publican.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/erd/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docbook/erd/mantisbt.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel_xml_export.php" beforeDir="false" afterPath="$PROJECT_DIR$/excel_xml_export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_download.php" beforeDir="false" afterPath="$PROJECT_DIR$/file_download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-ext-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-ext-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-ext-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-ext-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-cyrillic-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-latin-ext-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-latin-ext-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-latin-ext-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-latin-ext-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-latin-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-latin-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-vietnamese-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-vietnamese-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v12-vietnamese-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/montserrat-v12-vietnamese-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-ext-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-ext-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-ext-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-ext-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-cyrillic-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-greek-ext-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-greek-ext-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-greek-ext-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-greek-ext-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-greek-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-greek-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-greek-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-greek-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-latin-ext-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-latin-ext-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-latin-ext-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-latin-ext-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-latin-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-latin-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-vietnamese-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-vietnamese-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/open-sans-v15-vietnamese-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/open-sans-v15-vietnamese-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/poppins-v5-devanagari-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/poppins-v5-devanagari-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/poppins-v5-devanagari-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/poppins-v5-devanagari-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/poppins-v5-latin-ext-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/poppins-v5-latin-ext-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/poppins-v5-latin-ext-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/poppins-v5-latin-ext-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/poppins-v5-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/poppins-v5-latin-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/poppins-v5-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/poppins-v5-latin-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/history_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mantis_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/mantis_logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mantis_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mantis_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mantis_logo_notext.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mantis_logo_notext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rel_dependant.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/rel_dependant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rel_duplicate.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/rel_duplicate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rel_related.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/rel_related.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/issues_rss.php" beforeDir="false" afterPath="$PROJECT_DIR$/issues_rss.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascript_config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript_translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascript_translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ace.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ace.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-3.3.6.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap-3.3.6.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap-datetimepicker-4.17.47.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap-datetimepicker-4.17.47.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bugFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bugFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dropzone-4.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dropzone-4.3.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dropzone-4.3.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dropzone-4.3.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/install.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-2.2.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/list-1.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/list-1.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/manage_custom_field_edit_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/manage_custom_field_edit_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/moment-with-locales-2.15.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/moment-with-locales-2.15.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/typeahead.jquery-1.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/typeahead.jquery-1.1.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jump_to_bug.php" beforeDir="false" afterPath="$PROJECT_DIR$/jump_to_bug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/lang/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/README" beforeDir="false" afterPath="$PROJECT_DIR$/lang/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/lang/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_afrikaans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_afrikaans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_amharic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_amharic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_arabic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_arabic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_arabicegyptianspoken.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_arabicegyptianspoken.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_asturian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_asturian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_basque.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_basque.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_belarusian_tarask.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_belarusian_tarask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_breton.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_breton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_bulgarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_bulgarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_catalan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_catalan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_chinese_simplified.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_chinese_simplified.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_chinese_traditional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_chinese_traditional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_croatian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_croatian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_czech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_czech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_danish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_danish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_dutch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_dutch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_english.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_english.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_estonian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_estonian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_finnish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_finnish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_french.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_french.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_galician.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_galician.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_georgian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_georgian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_german.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_german.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_greek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_greek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_hebrew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_hebrew.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_hungarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_hungarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_icelandic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_icelandic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_interlingua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_interlingua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_italian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_italian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_japanese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_japanese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_korean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_korean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_latvian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_latvian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_lithuanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_lithuanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_luxembourgish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_luxembourgish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_macedonian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_macedonian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_norwegian_bokmal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_norwegian_bokmal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_norwegian_nynorsk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_norwegian_nynorsk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_occitan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_occitan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_persian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_persian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_polish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_polish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_portuguese_brazil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_portuguese_brazil.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_portuguese_standard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_portuguese_standard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_qqq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_qqq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_ripoarisch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_ripoarisch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_romanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_romanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_russian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_russian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_serbian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_serbian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_serbian_latin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_serbian_latin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_skr-arab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_skr-arab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_slovak.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_slovak.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_slovene.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_slovene.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_spanish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_spanish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_swedish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_swedish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_swissgerman.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_swissgerman.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_tagalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_tagalog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_turkish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_turkish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_ukrainian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_ukrainian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_urdu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_urdu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_vietnamese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_vietnamese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_volapuk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_volapuk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/strings_zazaki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/strings_zazaki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/library/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/library/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/library/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.ObjectIterator.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.ObjectIterator.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.ObjectList.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.ObjectList.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSSBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSSBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSSBuilder.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSSBuilder.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSSItem.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSSItem.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSSItemList.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSSItemList.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_091.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_091.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_100.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_100.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_200.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_200.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_abstract.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/class.RSS_V_abstract.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/doc/changelog_rssbuilder.htm" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/doc/changelog_rssbuilder.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/doc/doc.css" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/doc/doc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/interface.RSS.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/interface.RSS.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/readme_mantis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/readme_mantis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/rssbuilder/rss_sample_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/library/rssbuilder/rss_sample_script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_anon.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_anon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_cookie_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_cookie_test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_password_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_password_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_select_proj_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_select_proj_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_pwd.php" beforeDir="false" afterPath="$PROJECT_DIR$/lost_pwd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_pwd_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/lost_pwd_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/main_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_columns_copy.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_columns_copy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_columns_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_columns_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_columns_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_columns_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_columns_reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_columns_reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_columns_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_columns_set.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_email_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_email_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_email_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_email_set.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_revert.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_revert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_work_threshold_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_work_threshold_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_work_threshold_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_work_threshold_set.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_workflow_graph_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_workflow_graph_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_workflow_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_workflow_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_config_workflow_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_config_workflow_set.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_custom_field_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_custom_field_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_custom_field_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_custom_field_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_custom_field_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_custom_field_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_custom_field_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_custom_field_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_custom_field_proj_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_custom_field_proj_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_custom_field_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_custom_field_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_filter_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_filter_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_filter_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_filter_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_filter_edit_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_filter_edit_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_filter_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_filter_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_overview_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_overview_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_plugin_install.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_plugin_install.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_plugin_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_plugin_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_plugin_uninstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_plugin_uninstall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_plugin_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_plugin_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_plugin_upgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_plugin_upgrade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_prof_menu_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_prof_menu_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_cat_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_cat_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_cat_copy.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_cat_copy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_cat_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_cat_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_cat_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_cat_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_cat_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_cat_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_create_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_create_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_custom_field_add_existing.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_custom_field_add_existing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_custom_field_copy.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_custom_field_copy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_custom_field_remove.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_custom_field_remove.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_custom_field_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_custom_field_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_subproj_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_subproj_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_subproj_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_subproj_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_update_children.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_update_children.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_user_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_user_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_user_copy.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_user_copy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_user_remove.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_user_remove.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_ver_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_ver_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_ver_copy.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_ver_copy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_ver_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_ver_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_ver_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_ver_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_proj_ver_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_proj_ver_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_tags_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_tags_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_create_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_create_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_impersonate.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_impersonate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_proj_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_proj_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_proj_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_proj_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_prune.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_prune.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_user_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/manage_user_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mantis_offline.php.sample" beforeDir="false" afterPath="$PROJECT_DIR$/mantis_offline.php.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_view_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_view_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_view_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/my_view_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/news_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/news_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_list_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/news_list_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_menu_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/news_menu_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_rss.php" beforeDir="false" afterPath="$PROJECT_DIR$/news_rss.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/news_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_view_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/news_view_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permalink_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/permalink_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin_file.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugin_file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/Gravatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/Gravatar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_arabic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_arabic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_asturian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_asturian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_belarusian_tarask.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_belarusian_tarask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_breton.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_breton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_bulgarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_bulgarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_chinese_simplified.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_chinese_simplified.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_chinese_traditional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_chinese_traditional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_czech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_czech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_danish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_danish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_dutch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_dutch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_english.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_english.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_french.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_french.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_galician.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_galician.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_german.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_german.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_greek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_greek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_hungarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_hungarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_icelandic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_icelandic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_italian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_italian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_japanese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_japanese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_korean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_korean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_macedonian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_macedonian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_norwegian_bokmal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_norwegian_bokmal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_portuguese_brazil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_portuguese_brazil.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_portuguese_standard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_portuguese_standard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_qqq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_qqq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_russian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_russian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_spanish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_spanish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_swedish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_swedish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_ukrainian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_ukrainian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_vietnamese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Gravatar/lang/strings_vietnamese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/MantisCoreFormatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/MantisCoreFormatting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/core/MantisMarkdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/core/MantisMarkdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_afrikaans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_afrikaans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_arabic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_arabic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_asturian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_asturian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_basque.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_basque.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_belarusian_tarask.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_belarusian_tarask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_bengali.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_bengali.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_bosnian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_bosnian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_breton.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_breton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_bulgarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_bulgarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_catalan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_catalan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_chinese_simplified.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_chinese_simplified.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_chinese_traditional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_chinese_traditional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_czech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_czech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_danish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_danish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_dutch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_dutch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_english.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_english.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_finnish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_finnish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_french.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_french.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_galician.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_galician.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_georgian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_georgian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_german.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_german.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_greek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_greek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_hebrew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_hebrew.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_hungarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_hungarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_icelandic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_icelandic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_indonesian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_indonesian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_interlingua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_interlingua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_italian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_italian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_japanese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_japanese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_korean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_korean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_laki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_laki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_lezgi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_lezgi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_lithuanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_lithuanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_lower_sorbian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_lower_sorbian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_luxembourgish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_luxembourgish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_macedonian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_macedonian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_malay.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_malay.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_malayalam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_malayalam.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_norwegian_bokmal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_norwegian_bokmal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_occitan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_occitan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_persian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_persian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_piedmontese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_piedmontese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_polish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_polish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_portuguese_brazil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_portuguese_brazil.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_portuguese_standard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_portuguese_standard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_qqq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_qqq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_ripoarisch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_ripoarisch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_romanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_romanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_russian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_russian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_serbian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_serbian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_serbian_latin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_serbian_latin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_slovak.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_slovak.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_spanish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_spanish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_swedish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_swedish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_swissgerman.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_swissgerman.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_tachelhit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_tachelhit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_tagalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_tagalog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_telugu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_telugu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_turkish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_turkish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_ukrainian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_ukrainian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_upper_sorbian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_upper_sorbian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_vietnamese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_vietnamese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_zazaki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_zazaki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_zh-cn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_zh-cn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_zh-hk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/lang/strings_zh-hk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/pages/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/pages/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/pages/config_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisCoreFormatting/pages/config_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisCoreFormatting/tests/MarkdownTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/MantisGraph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/MantisGraph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/core/Period.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/core/Period.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/core/graph_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/core/graph_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/files/MantisGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/files/MantisGraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/files/chart-2.1.6.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/files/chart-2.1.6.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/files/chart.bundle-2.1.6.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/files/chart.bundle-2.1.6.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_afrikaans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_afrikaans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_arabic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_arabic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_arabicegyptianspoken.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_arabicegyptianspoken.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_asturian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_asturian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_basque.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_basque.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_belarusian_tarask.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_belarusian_tarask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_breton.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_breton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_bulgarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_bulgarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_catalan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_catalan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_chinese_simplified.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_chinese_simplified.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_chinese_traditional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_chinese_traditional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_czech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_czech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_danish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_danish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_dutch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_dutch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_english.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_english.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_estonian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_estonian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_finnish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_finnish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_french.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_french.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_galician.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_galician.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_georgian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_georgian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_german.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_german.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_greek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_greek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_hebrew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_hebrew.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_hungarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_hungarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_icelandic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_icelandic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_interlingua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_interlingua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_italian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_italian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_japanese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_japanese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_korean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_korean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_laki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_laki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_lithuanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_lithuanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_luxembourgish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_luxembourgish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_macedonian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_macedonian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_norwegian_bokmal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_norwegian_bokmal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_norwegian_nynorsk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_norwegian_nynorsk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_occitan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_occitan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_piedmontese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_piedmontese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_polish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_polish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_portuguese_brazil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_portuguese_brazil.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_portuguese_standard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_portuguese_standard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_qqq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_qqq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_ripoarisch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_ripoarisch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_romanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_romanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_russian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_russian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_serbian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_serbian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_serbian_latin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_serbian_latin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_slovak.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_slovak.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_spanish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_spanish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_swedish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_swedish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_swissgerman.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_swissgerman.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_tagalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_tagalog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_turkish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_turkish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_ukrainian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_ukrainian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_urdu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_urdu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_vietnamese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_vietnamese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_volapuk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_volapuk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_zazaki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_zazaki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_zh-cn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/lang/strings_zh-cn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/category_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/category_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/developer_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/developer_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_bycategory_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_bycategory_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_bystatus_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_bystatus_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/issues_trend_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/priority_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/priority_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/reporter_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/reporter_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/resolution_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/resolution_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/severity_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/severity_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/MantisGraph/pages/status_graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/MantisGraph/pages/status_graph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml/Interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml/Interface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml/Issue.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml/Issue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml/Mapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/ImportXml/Mapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/XmlImportExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/XmlImportExport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_afrikaans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_afrikaans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_arabic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_arabic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_arabicegyptianspoken.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_arabicegyptianspoken.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_asturian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_asturian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_belarusian_tarask.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_belarusian_tarask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_bengali.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_bengali.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_breton.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_breton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_bulgarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_bulgarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_catalan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_catalan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_chinese_simplified.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_chinese_simplified.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_chinese_traditional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_chinese_traditional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_czech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_czech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_danish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_danish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_dutch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_dutch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_english.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_english.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_finnish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_finnish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_french.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_french.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_galician.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_galician.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_georgian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_georgian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_german.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_german.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_greek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_greek.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_hebrew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_hebrew.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_hungarian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_hungarian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_icelandic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_icelandic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_indonesian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_indonesian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_interlingua.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_interlingua.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_italian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_italian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_japanese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_japanese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_korean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_korean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_lithuanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_lithuanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_luxembourgish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_luxembourgish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_macedonian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_macedonian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_mirandese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_mirandese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_norwegian_bokmal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_norwegian_bokmal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_occitan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_occitan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_piedmontese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_piedmontese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_polish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_polish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_portuguese_brazil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_portuguese_brazil.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_portuguese_standard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_portuguese_standard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_qqq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_qqq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_ripoarisch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_ripoarisch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_romanian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_romanian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_russian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_russian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_serbian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_serbian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_serbian_latin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_serbian_latin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_slovak.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_slovak.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_spanish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_spanish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_swedish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_swedish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_swissgerman.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_swissgerman.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_tagalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_tagalog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_tunisian_arabic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_tunisian_arabic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_turkish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_turkish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_ukrainian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_ukrainian.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_vietnamese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_vietnamese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_zazaki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_zazaki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_zh-cn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_zh-cn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_zh-hk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/lang/strings_zh-hk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/mantis.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/mantis.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/pages/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/pages/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/pages/config_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/pages/config_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/pages/export.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/pages/export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/pages/import.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/pages/import.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/XmlImportExport/pages/import_action.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/XmlImportExport/pages/import_action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_all_bug_options_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/print_all_bug_options_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_all_bug_options_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/print_all_bug_options_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_all_bug_options_reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/print_all_bug_options_reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_all_bug_options_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/print_all_bug_options_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_all_bug_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/print_all_bug_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_all_bug_page_word.php" beforeDir="false" afterPath="$PROJECT_DIR$/print_all_bug_page_word.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_doc_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj_doc_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_doc_add_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj_doc_add_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_doc_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj_doc_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_doc_edit_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj_doc_edit_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_doc_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj_doc_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_doc_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj_doc_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/project_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_store.php" beforeDir="false" afterPath="$PROJECT_DIR$/query_store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_store_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/query_store_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/return_dynamic_filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/return_dynamic_filters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roadmap_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/roadmap_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/README" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/send_emails.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/send_emails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set_project.php" beforeDir="false" afterPath="$PROJECT_DIR$/set_project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/summary_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_attach.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag_attach.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_detach.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag_detach.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag_update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_update_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag_update_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag_view_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag_view_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AllTests.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Mantis/AllTests.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Mantis/ConfigParserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Mantis/EnumTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Mantis/HelperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Mantis/MentionParsingTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Mantis/PluginTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Mantis/StringTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bootstrap.php.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rest/AllTests.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rest/RestBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rest/RestIssueAddTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/AllTests.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/AttachmentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/CategoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/CompressionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/EnumTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/FilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/IssueAddTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/IssueHistoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/IssueMonitorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/IssueNoteTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/IssueUpdateTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/LoginTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/MentionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/ProjectTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/RelationshipTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/SoapBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/TagTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/UserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/soap/VersionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_config_get_set.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify.php" beforeDir="false" afterPath="$PROJECT_DIR$/verify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_all_bug_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_all_bug_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_all_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_all_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_all_set.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_all_set.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_filters_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_filters_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_user_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_user_page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki.php" beforeDir="false" afterPath="$PROJECT_DIR$/wiki.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow_graph_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/workflow_graph_img.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlhttprequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/xmlhttprequest.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,55 +1013,58 @@
     <session id="487463164">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="9" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="4" />
+          <entry key="Dockerfile" value="5" />
           <entry key="css" value="1" />
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="4" />
           <entry key="json" value="3" />
           <entry key="mantis-entrypoint" value="1" />
           <entry key="mantis-entrypoint-crontab" value="1" />
-          <entry key="md" value="5" />
-          <entry key="php" value="108" />
+          <entry key="md" value="6" />
+          <entry key="php" value="116" />
           <entry key="tabbat" value="1" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="8" />
           <entry key="wsdl" value="1" />
           <entry key="xsl" value="1" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Dockerfile" value="4" />
+          <entry key="Dockerfile" value="5" />
           <entry key="JSON" value="3" />
-          <entry key="Markdown" value="5" />
-          <entry key="PHP" value="108" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Markdown" value="6" />
+          <entry key="PHP" value="116" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="XML" value="2" />
-          <entry key="YAML" value="5" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="151" />
           <entry key="dummy" value="13" />
-          <entry key="gitignore" value="16" />
+          <entry key="gitignore" value="24" />
           <entry key="md" value="521" />
-          <entry key="php" value="838" />
-          <entry key="txt" value="216" />
+          <entry key="php" value="1127" />
+          <entry key="txt" value="310" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
@@ -85,8 +1072,8 @@
         <counts>
           <entry key="Dockerfile" value="151" />
           <entry key="Markdown" value="521" />
-          <entry key="PHP" value="838" />
-          <entry key="PLAIN_TEXT" value="245" />
+          <entry key="PHP" value="1127" />
+          <entry key="PLAIN_TEXT" value="347" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -100,47 +1087,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/classes/IssueCreatedTimelineEvent.class.php">
+        <entry file="file://$PROJECT_DIR$/core/classes/IssueCustomTimelineEvent.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            <state relative-caret-position="840">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bug_update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3304">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bug_view_inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="364" column="17" lean-forward="true" selection-start-line="364" selection-start-column="17" selection-end-line="364" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/timeline_api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1491">
+              <caret line="134" column="54" lean-forward="true" selection-start-line="134" selection-start-column="54" selection-end-line="134" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/classes/IssueCustomTimelineEvent.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="252">
+                <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,38 +1144,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/api_token_api.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1312" selection-start-line="1312" selection-end-line="1312" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/timeline_api.php">
+        <entry file="file://$PROJECT_DIR$/bugnote_stats_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2996">
-              <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+            <state relative-caret-position="4760">
+              <caret line="170" column="67" selection-start-line="170" selection-start-column="67" selection-end-line="170" selection-end-column="67" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bugnote_view_inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5684">
+              <caret line="203" column="70" selection-start-line="203" selection-start-column="70" selection-end-line="203" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bug_view_page.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mantis_bug_table</find>
-      <find>mantis_bug_</find>
-      <find>model</find>
-      <find>migrat</find>
-      <find>settings</find>
-      <find>table</find>
-      <find>severity</find>
-      <find>reproducibility</find>
       <find>enum_status</find>
       <find>status_enum_string</find>
       <find>assigned</find>
       <find>commented on issue</find>
       <find>timeline</find>
       <find>10</find>
-      <find>normal_date</find>
       <find>timeline_issue</find>
       <find>sta</find>
       <find>status</find>
@@ -195,6 +1200,15 @@
       <find>IssueTagTimelineEvent</find>
       <find>issue</find>
       <find>timeline_iss</find>
+      <find>last_edi</find>
+      <find>last</find>
+      <find>bug-</find>
+      <find>bug-last-modified</find>
+      <find>class</find>
+      <find>normal_date_for</find>
+      <find>normal_date_format</find>
+      <find>normal_date</find>
+      <find>date upda</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/core</dir>
@@ -203,6 +1217,7 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -215,14 +1230,15 @@
         <option value="$PROJECT_DIR$/config/config_inc.php" />
         <option value="$PROJECT_DIR$/core/classes/IssueStatusChangeTimelineEvent.class.php" />
         <option value="$PROJECT_DIR$/core/classes/IssueEditedTimelineEvent.class.php" />
-        <option value="$PROJECT_DIR$/lang/strings_english.txt" />
         <option value="$PROJECT_DIR$/core/classes/IssueCustomTimelineEvent.php" />
         <option value="$PROJECT_DIR$/core/classes/tabbat" />
         <option value="$PROJECT_DIR$/core/classes/MantisCoreWikiPlugin.class.php" />
         <option value="$PROJECT_DIR$/core/timeline_api.php" />
-        <option value="$PROJECT_DIR$/core/classes/IssueCustomTimelineEvent.class.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/core/classes/IssueCustomTimelineEvent.class.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lang/strings_english.txt" />
+        <option value="$PROJECT_DIR$/bug_view_inc.php" />
       </list>
     </option>
   </component>
@@ -272,10 +1288,9 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="454" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -283,7 +1298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,17 +1305,23 @@
               <item name="mantisbt" type="b2602c69:ProjectViewProjectNode" />
               <item name="mantisbt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mantisbt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantisbt" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="file_downlo&#9;FILE&#9;file:///home/manena/projects/php/mantisbt/file_download.php&#10;timeline&#9;FILE&#9;file:///home/manena/projects/php/mantisbt/core/classes/TimelineEvent.class.php&#10;timelin&#9;null&#9;null&#10;captcha&#9;null&#9;null&#10;config&#9;FILE&#9;file:///home/manena/projects/php/mantisbt/config_defaults_inc.php&#10;config_inc&#9;FILE&#9;file:///home/manena/projects/php/mantisbt/config/config_inc.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantisbt-17" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -352,18 +1372,64 @@
       <workItem from="1541860249992" duration="47000" />
       <workItem from="1542040895961" duration="1857000" />
       <workItem from="1542089518148" duration="13098000" />
-      <workItem from="1542110686944" duration="76000" />
+      <workItem from="1542110686944" duration="1569000" />
+      <workItem from="1542114556050" duration="438000" />
+      <workItem from="1542287371120" duration="599000" />
+      <workItem from="1542611777516" duration="2179000" />
+      <workItem from="1542698380370" duration="122000" />
+      <workItem from="1542959385653" duration="603000" />
+      <workItem from="1542975892774" duration="599000" />
+      <workItem from="1543216326209" duration="2728000" />
+      <workItem from="1543388842087" duration="702000" />
+      <workItem from="1543399742035" duration="769000" />
+      <workItem from="1543647866554" duration="2001000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed typo">
+      <created>1542111006703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542111006703</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added IDs to timeline issue id">
+      <created>1542611900159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542611900159</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added IDs to timeline issue id">
+      <created>1542622420475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542622420475</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed strings">
+      <created>1542622546495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542622546495</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed strings">
+      <created>1542623015682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542623015682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55173000" />
+    <option name="totallyTimeSpent" value="67406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21611527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17716116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,7 +1441,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32979852" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32980973" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -408,6 +1474,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -418,30 +1510,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
     </ignored-roots>
     <MESSAGE value="added status change to timeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="added status change to timeline" />
+    <MESSAGE value="fixed typo" />
+    <MESSAGE value="added IDs to timeline issue id" />
+    <MESSAGE value="fixed strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed strings" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/soap/mc_api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="402" column="50" selection-start-line="402" selection-start-column="50" selection-end-line="402" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view_user_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2352">
-          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/filter_api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="1357" column="36" selection-start-line="1357" selection-start-column="36" selection-end-line="1357" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/classes/DbQuery.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -548,22 +1622,8 @@
         <state relative-caret-position="-1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62048">
-          <caret line="2216" column="39" selection-start-line="2216" selection-start-column="39" selection-end-line="2216" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/font-awesome-4.6.3.min.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/lang_api.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -576,13 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="601">
           <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bug_view_inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1453">
-          <caret line="758" column="48" lean-forward="true" selection-start-line="758" selection-start-column="48" selection-end-line="758" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -611,13 +1664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/strings_english.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="1603" column="138" lean-forward="true" selection-start-line="1603" selection-start-column="138" selection-end-line="1603" selection-end-column="138" />
         </state>
       </provider>
     </entry>
@@ -692,20 +1738,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/classes/IssueCreatedTimelineEvent.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
+        <state relative-caret-position="660">
           <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/strings_english.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24120">
+          <caret line="1608" column="136" selection-start-line="1608" selection-start-column="136" selection-end-line="1608" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/api_token_api.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -716,35 +1781,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="448">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/classes/IssueCustomTimelineEvent.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bug_update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3304">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bugnote_stats_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4760">
+          <caret line="170" column="67" selection-start-line="170" selection-start-column="67" selection-end-line="170" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bugnote_view_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5684">
+          <caret line="203" column="70" selection-start-line="203" selection-start-column="70" selection-end-line="203" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bug_view_page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bug_view_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="364" column="17" lean-forward="true" selection-start-line="364" selection-start-column="17" selection-end-line="364" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/timeline_api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2996">
-          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        <state relative-caret-position="1491">
+          <caret line="134" column="54" lean-forward="true" selection-start-line="134" selection-start-column="54" selection-end-line="134" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1312" selection-start-line="1312" selection-end-line="1312" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <first_editor relative-caret-position="252">
+            <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/api_token_api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/classes/IssueCustomTimelineEvent.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>

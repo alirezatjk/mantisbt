@@ -20,5 +20,4 @@ ADD . /var/www/html/
 ADD ./mantis-entrypoint /usr/local/bin/mantis-entrypoint
 ADD ./mantis-entrypoint-crontab /usr/local/bin/mantis-entrypoint-crontab
 
-RUN composer install
 CMD ["mantis-entrypoint"]

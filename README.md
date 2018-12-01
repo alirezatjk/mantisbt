@@ -16,3 +16,7 @@ new class for custom timeline events
 `/core/classes/IssueStatusChangeTimelineEvent.php`:
 
 modified to get status change events.
+
+`/bug_view_inc.php`:
+
+added epoch datetime attribute to updated issue

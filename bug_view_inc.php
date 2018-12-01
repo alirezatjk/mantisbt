@@ -175,6 +175,7 @@ $t_date_submitted = $t_show_date_submitted ? date( config_get( 'normal_date_form
 
 $t_show_last_updated = in_array( 'last_updated', $t_fields );
 $t_last_updated = $t_show_last_updated ? date( config_get( 'normal_date_format' ), $t_bug->last_updated ) : '';
+$t_last_updated_epoch = $t_show_last_updated ? $t_bug->last_updated : '';
 
 $t_show_tags = in_array( 'tags', $t_fields ) && access_has_bug_level( config_get( 'tag_view_threshold' ), $t_bug_id );
 
@@ -359,7 +360,7 @@ if( $t_show_id || $t_show_project || $t_show_category || $t_show_view_state || $
 	echo '<td class="bug-date-submitted">', $t_date_submitted, '</td>';
 
 	# Date Updated
-	echo '<td class="bug-last-modified">', $t_last_updated, '</td>';
+    echo '<td class="bug-last-modified" epoch="', $t_last_updated_epoch, '">', $t_last_updated, '</td>';
 
 	echo '</tr>';
 
@@ -713,7 +714,7 @@ foreach( $t_related_custom_field_ids as $t_id ) {
 	$t_def = custom_field_get_definition( $t_id );
 
 	echo '<tr>';
-	echo '<th class="bug-custom-field category">', string_display( lang_get_defaulted( $t_def['name'] ) ), '</th>';
+	echo '<th class="bug-custom-field category">', string_display_line( lang_get_defaulted( $t_def['name'] ) ), '</th>';
 	echo '<td class="bug-custom-field" colspan="5">';
 	print_custom_field_value( $t_def, $t_id, $f_bug_id );
 	echo '</td></tr>';

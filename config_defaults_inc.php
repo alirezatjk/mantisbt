@@ -368,7 +368,7 @@ $g_send_reset_password	= ON;
  * use captcha image to validate subscription it requires GD library installed
  * @global integer $g_signup_use_captcha
  */
-$g_signup_use_captcha	= ON;
+$g_signup_use_captcha	= OFF;
 
 /**
  * absolute path (with trailing slash!) to folder which contains your
@@ -639,7 +639,7 @@ $g_phpMailer_method = PHPMAILER_METHOD_MAIL;
  * @see $g_smtp_port
  * @global string $g_smtp_host
  */
-$g_smtp_host = 'localhost';
+$g_smtp_host = 'smtp.gmail.com';
 
 /**
  * SMTP Server Authentication user
@@ -647,7 +647,7 @@ $g_smtp_host = 'localhost';
  * @see $g_smtp_password
  * @global string $g_smtp_username
  */
-$g_smtp_username = '';
+$g_smtp_username = 'sheypoor.mantis@gmail.com';
 
 /**
  * SMTP Server Authentication password
@@ -655,14 +655,14 @@ $g_smtp_username = '';
  * @see $g_smtp_username
  * @global string $g_smtp_password
  */
-$g_smtp_password = '';
+$g_smtp_password = 'qamantis2020';
 
 /**
  * Allow secure connection to the SMTP server
  * Valid values are '' (no encryption), 'ssl' or 'tls'
  * @global string $g_smtp_connection_mode
  */
-$g_smtp_connection_mode = '';
+$g_smtp_connection_mode = 'ssl';
 
 /**
  * Default SMTP port
@@ -671,7 +671,7 @@ $g_smtp_connection_mode = '';
  * @see $g_smtp_host
  * @global integer $g_smtp_port
  */
-$g_smtp_port = 25;
+$g_smtp_port = 465;
 
 /**
  * Enable DomainKeys Identified Mail (DKIM) Signatures (rfc6376)
@@ -756,7 +756,7 @@ $g_email_dkim_identity = 'noreply@example.com';
  * which triggers notifications.  This slows user performance.
  * @global integer $g_email_send_using_cronjob
  */
-$g_email_send_using_cronjob = OFF;
+$g_email_send_using_cronjob = ON;
 
 /**
  * email separator and padding
@@ -950,7 +950,7 @@ $g_language_auto_map = array(
  * Fallback for automatic language selection
  * @global string $g_fallback_language
  */
-$g_fallback_language = 'persian';
+$g_fallback_language = 'english';
 
 ##########################
 # MantisBT Font Settings #
