@@ -1653,7 +1653,7 @@ function mci_issue_data_as_array( BugData $p_issue_data, $p_user_id, $p_lang ) {
 	}
 
 	$t_created_at = ApiObjectFactory::datetime( $p_issue_data->date_submitted );
-	$t_updated_at = ApiObjectFactory::datetime( $p_issue_data->last_updated );
+	$t_updated_at = $p_issue_data->last_updated;
 
 	if( ApiObjectFactory::$soap ) {
 		if( config_get( 'enable_profiles' ) != OFF ) {

@@ -433,9 +433,9 @@ $g_upgrade[51] = array( 'InsertData', array( db_get_table( 'user' ), "(
 # Release marker: 1.0.0 - 1.0.7
 
 $g_upgrade[52] = array( 'AlterColumnSQL', array( db_get_table( 'bug_history' ), "
-	old_value				C(255)	$t_notnull" ) );
+	old_value				XL	$t_notnull" ) );
 $g_upgrade[53] = array( 'AlterColumnSQL', array( db_get_table( 'bug_history' ), "
-	new_value				C(255)	$t_notnull" ) );
+	new_value				XL	$t_notnull" ) );
 
 $g_upgrade[54] = array( 'CreateTableSQL', array( db_get_table( 'email' ), "
 	email_id				I		UNSIGNED NOTNULL PRIMARY AUTOINCREMENT,
