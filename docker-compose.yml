@@ -1,6 +1,4 @@
 version: '2'
-volumes: 
-  sheypoor-db:
 services:
   mantis:
     build:
@@ -18,7 +16,7 @@ services:
         $$g_log_destination = '';
         $$g_show_detailed_errors = ON;
     ports:
-      - "80:80"
+      - "6985:80"
     links:
       - db:db
     volumes:
@@ -26,7 +24,16 @@ services:
   db:
     image: mysql:5.7
     volumes:
-    - sheypoor-db:/var/lib/mysql
+    - db_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: mantis
       MYSQL_DATABASE: mantis
+
+  adminer:
+    image: adminer
+    ports:
+    - '9654:8080'
+    links:
+    - 'db:db'
+    expose:
+    - 9654
