@@ -117,7 +117,7 @@ function timeline_events( $p_start_time, $p_end_time, $p_max_events, $p_filter =
 		}
 
 		# Do not include skipped events
-		if( $t_event != null && !$t_event->skip() ) {
+		if( $t_event != null && !$t_event->skip() && $t_user_id != 12) {
 			$t_timeline_events[] = $t_event;
 			$t_count++;
 
