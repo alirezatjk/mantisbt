@@ -21,10 +21,11 @@ services:
       - db:db
     volumes:
       - .:/var/www/html
+      - ./php_config.ini:/usr/etc/php/php.ini
   db:
     image: mysql:5.7
     volumes:
-    - db_data:/var/lib/mysql
+    - ./db_data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: mantis
       MYSQL_DATABASE: mantis
